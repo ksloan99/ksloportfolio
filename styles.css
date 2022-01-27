@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*this is a comment
+Extra font for later: font-family: 'Fjalla One', sans-serif;
+colors: Orange - #B47545
+		Pink  -  #E7D0CA
+		green    #767964
+		red		 #A45350
+*/
+
+/*Desktop/ Global View*/
+
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #E7D0CA;
+}
+.col {
+	float: left;
+	padding: 1%;
+}
+
+.col-lg {
+	width: 31.3%;
+}
+
+.col-lg img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.col-dos{
+		width: 50%;
+	margin: 0px;
+	padding: 0px;
+}
+.col-dos img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.col-uno{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.col-dos img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.slicknav_menu {
+	display: none;
+}
+
+#menu { 
+	float: right;
+}
+
+#menu li {
+	display: inline-block; 
+}
+
+#menu li a {
+	text-decoration: none;
+	color: #A83638;
+	padding: 8px;
+	font-size: 18px;
+}
+
+
+header{
+	padding-top:30px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.heading-body-copy {
+	color: #fff;
+	margin-right: 20%;
+}
+
+.lets-talk {
+	background-color: #A45350;
+	padding: 8px 30px;
+	text-decoration: none;
+	color: #FFF;
+}
+h1 {
+	color: #fff;
+	font-weight: 300;
+	font-size: 52px;
+	margin-bottom: -5px;
+}
+
+.hero {
+	/* background-image: url("images/hero-background.jpg"); */
+	background-color: #767964;
+	padding: 45px 10px 45px 40px;
+	background-size: cover;
+}
+
+.subheading {
+	color: #FFFFFF;
+	font-weight: 880px;
+	font-size: 72px;
+	
+}
+
+
+
+/*Tablet View*/
+@media (max-width: 768px) {
+	#menu li {
+	display: block;
+	text-align: right;
+}
+	.col-md{
+		width: 46%;
+	}
+}
+
+/*Mobile View*/
+@media (max-width: 500px) {
+	
+	.slicknav_menu {
+	display: block;
+	}
+	
+	#menu {
+		display: none;
+	}
+	.col-sm {
+		width: 100%;
+	}
+	.col {
+		padding: 0%;
+	}
+}
